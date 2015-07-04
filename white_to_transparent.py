@@ -9,9 +9,6 @@ if len(sys.argv) < 2:
 	print ''
 	sys.exit(0)
 
-def transpare(image):
-    return image.point(lambda p: p * 0)
-
 for i in range(1, len(sys.argv)):
 	img = Image.open(sys.argv[i]).convert('RGBA')
 	datas = img.getdata()
