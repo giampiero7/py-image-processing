@@ -8,7 +8,7 @@ Changes the opacity of the image multiplying the alpha channel of each pixel for
 
 Example:
 
-    $ python opacity.py img.png 0.4`
+    $ python opacity.py img.png 0.4
 
 ![img_opacity_0.4.png](example-imgs/img_opacity_0.4.png) (img_opacity_0.4.png)
 
@@ -17,7 +17,7 @@ Changes the color of the image to the specified RGB value keeping the alpha unch
 
 Example:
 
-    $ python tint.py img_opacity_0.4.png 10 20 200`
+    $ python tint.py img_opacity_0.4.png 10 20 200
 
 ![img_opacity_0.4_tinted.png](example-imgs/img_opacity_0.4_tinted.png) (img_opacity_0.4_tinted.png)
 
@@ -26,7 +26,7 @@ Transforms the colors of the image to their negative, alpha unchanged.
 
 Example:
 
-    $ python negative.py img_opacity_0.4_tinted.png`
+    $ python negative.py img_opacity_0.4_tinted.png
 
 ![img_opacity_0.4_tinted_negative.png](example-imgs/img_opacity_0.4_tinted_negative.png) (img_opacity_0.4_tinted_negative.png)
 
