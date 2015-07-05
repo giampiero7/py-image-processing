@@ -48,9 +48,11 @@ Converts the white pixels of an image to transparent ones
 
 Example:
 
-    $ python white_to_transparent.py img_with_white_parts.png
+![img_white.png](example-imgs/img_white.png) (img_white.png)
 
-I'm not gonna insert images here since you wouldn't see the difference... but I guess you can imagine the effect...
+    $ python white_to_transparent.py img_white.png
+
+![img_white_transp.png](example-imgs/img_white_transp.png) (img_white_transp.png)
 
 ## Tips
 You can process more images at the same time
