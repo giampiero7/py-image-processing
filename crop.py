@@ -1,6 +1,6 @@
 import sys
 import os
-import Image
+from PIL import Image
 
 if len(sys.argv) < 6:
 	print ''
