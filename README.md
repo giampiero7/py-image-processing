@@ -3,6 +3,11 @@ Handy when working with icons, like this one:
 
 ![img.png](example-imgs/img.png) (img.png)
 
+## Setup
+Make sure python is properly installed and install [Pillow](https://pillow.readthedocs.io/)
+
+    $ pip install Pillow
+
 ## opacity.py
 Changes the opacity of the image multiplying the alpha channel of each pixel for the specified value.
 
