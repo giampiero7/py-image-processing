@@ -3,10 +3,10 @@ import os
 from PIL import Image
 
 if len(sys.argv) < 3:
-	print ''
-	print '\tUsage: ' + sys.argv[0] + ' image_file opacity'
-	print '\tExample: ' + sys.argv[0] + ' img.png 0.4'
-	print ''
+	print('')
+	print('\tUsage: ' + sys.argv[0] + ' image_file opacity')
+	print('\tExample: ' + sys.argv[0] + ' img.png 0.4')
+	print('')
 	sys.exit(0)
 
 def opacity(image):

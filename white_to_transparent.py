@@ -1,12 +1,12 @@
 import sys
 import os
-import Image
+from PIL import Image
 
 if len(sys.argv) < 2:
-	print ''
-	print '\tUsage: python ' + sys.argv[0] + ' image_file'
-	print '\tExample: python ' + sys.argv[0] + ' img.png'
-	print ''
+	print('')
+	print('\tUsage: python ' + sys.argv[0] + ' image_file')
+	print('\tExample: python ' + sys.argv[0] + ' img.png')
+	print('')
 	sys.exit(0)
 
 for i in range(1, len(sys.argv)):

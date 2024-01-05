@@ -3,10 +3,10 @@ import os
 from PIL import Image
 
 if len(sys.argv) < 5:
-	print ''
-	print '\tUsage: python ' + sys.argv[0] + ' image_file r g b'
-	print '\tExample: python ' + sys.argv[0] + ' img.png 20 30 255'
-	print ''
+	print('')
+	print('\tUsage: python ' + sys.argv[0] + ' image_file r g b')
+	print('\tExample: python ' + sys.argv[0] + ' img.png 20 30 255')
+	print('')
 	sys.exit(0)
 
 def tint(image, c):

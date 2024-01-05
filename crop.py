@@ -3,10 +3,10 @@ import os
 from PIL import Image
 
 if len(sys.argv) < 6:
-	print ''
-	print '\tUsage: ' + sys.argv[0] + ' image_file left up right bottom'
-	print '\tExample: ' + sys.argv[0] + ' img.png 10 20 10 10'
-	print ''
+	print('')
+	print('\tUsage: ' + sys.argv[0] + ' image_file left up right bottom')
+	print('\tExample: ' + sys.argv[0] + ' img.png 10 20 10 10')
+	print('')
 	sys.exit(0)
 
 argvLen = len(sys.argv);
